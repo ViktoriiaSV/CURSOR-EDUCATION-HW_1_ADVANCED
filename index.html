@@ -14,6 +14,10 @@
     <p> If master is very active, this can pollute your feature branch’s history quite a bit.</p>
     <p>Hard for other developers to understand the history of the project.</p>
     <h1>Rebase</h1>
+    <p>You can rebase the feature branch onto master branch using the following commands:
+    <em>git checkout feature</em>
+    <em>git rebase master</em>
+    </p>
     <p>+Rebase moves the entire new branch to begin on the tip of the master branch, effectively incorporating all of the new commits in master.</p>
     <p>Rebasing re-writes the project history by creating brand new commits for each commit in the original branch.</p>
     <p>You get a much cleaner project history.</p>
