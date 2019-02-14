@@ -8,6 +8,8 @@
     <h1>Merging vs. Rebasing</h1>
     <p>git rebase solves the same problem as git merge</p>
     <p>Both of these commands are designed to integrate changes from one branch into another branch—they just do it in very different ways.</p>
-    <p></p>
+    <h1>Merge</h1>
+    <p>+ Merging is nice because it’s a non-destructive operation. The existing branches are not changed in any way. </p>
+    <p>- this also means that the feature branch will have an extraneous merge commit every time you need to incorporate upstream changes. If master is very active, this can pollute your feature branch’s history quite a bit. Hard for other developers to understand the history of the project.</p>
 </body>
 </html>
